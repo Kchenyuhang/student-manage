@@ -6,7 +6,7 @@ import java.sql.*;
  * JDBC连接工具类，使用了单例模式，封装了连接和关闭方法
  */
 public class JDBCUtil {
-    private static String url = "jdbc:mysql://127.0.0.1:3306/db_student";
+    private static String url = "jdbc:mysql://127.0.0.1:3306/db_student?useUnicode=true&characterEncoding=utf8";
     private static String name = "root";
     private static String password = "root";
     private static Connection connnection = null;

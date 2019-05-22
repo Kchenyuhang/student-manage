@@ -4,6 +4,7 @@ public class Department {
     private Integer id;
     private String departmentName;
     private String logo;
+    private String description;
 
     public Integer getId() {
         return id;
@@ -29,12 +30,21 @@ public class Department {
         this.logo = logo;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString() {
         return "Department{" +
                 "id=" + id +
                 ", departmentName='" + departmentName + '\'' +
                 ", logo='" + logo + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }

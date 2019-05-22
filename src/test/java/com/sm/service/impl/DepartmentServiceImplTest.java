@@ -24,4 +24,13 @@ public class DepartmentServiceImplTest {
         int id = 4;
         departmentService.deleteDepartmentById(id);
     }
+
+    @Test
+    public void addDepartment() {
+        Department department = new Department();
+        department.setDepartmentName("测试院系");
+        department.setLogo("https://student-manage99.oss-cn-hangzhou.aliyuncs.com/logo/e2792636-7f25-4b11-b469-fe2fe12165d9.jpg");
+        int n = departmentService.addDepartment(department);
+    }
+
 }

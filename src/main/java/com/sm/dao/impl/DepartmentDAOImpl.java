@@ -48,10 +48,19 @@ public class DepartmentDAOImpl implements DepartmentDAO {
         return n;
     }
 
-//    @Override
-//    public int deleDepartmrntById(long id) throws SQLException {
-//        return 0;
-//    }
-
+    @Override
+    public int insertDepartment(Department department) throws SQLException {
+        JDBCUtil jdbcUtil = JDBCUtil.getInitJDBCUtil();
+        Connection connection = jdbcUtil.getConnection();
+        String sql = "INSERT INTO t_department(department_name,logo,description) VALUES (?,?,?)";
+        PreparedStatement pstmt = connection.prepareStatement(sql);
+        pstmt.setString(1,department.getDepartmentName());
+        pstmt.setString(2,department.getLogo());
+        pstmt.setString(3,department.getDescription());
+        int n = pstmt.executeUpdate();
+        pstmt.close();
+        connection.close();
+        return n;
+    }
 }
 

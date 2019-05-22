@@ -34,4 +34,19 @@ public class DepartmentDAOImplTest {
         }
     }
 
+    @Test
+    public void insertDepartment() {
+        Department department = new Department();
+        department.setDepartmentName("测试院系");
+        department.setLogo("\n" +
+                "https://student-manage99.oss-cn-hangzhou.aliyuncs.com/logo/e2792636-7f25-4b11-b469-fe2fe12165d9.jpg");
+                department.setDescription("测试院系的介绍");
+        try {
+            int n = departmentDAO.insertDepartment(department);
+            assertEquals(1, n);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

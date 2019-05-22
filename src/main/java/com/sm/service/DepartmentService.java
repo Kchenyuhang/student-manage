@@ -17,4 +17,10 @@ public interface DepartmentService {
      */
     void deleteDepartmentById(int id);
 
+    /**
+     * 新增院系
+     * @param department
+     * @return int
+     */
+    int addDepartment(Department department);
 }

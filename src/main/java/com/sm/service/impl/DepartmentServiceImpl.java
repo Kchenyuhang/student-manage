@@ -30,4 +30,15 @@ public class DepartmentServiceImpl implements DepartmentService {
             System.out.println("删除院系有异常");
         }
     }
+
+    @Override
+    public int addDepartment(Department department) {
+        int n = 0;
+        try {
+            n = departmentDAO.insertDepartment(department);
+        } catch (SQLException e) {
+            System.err.println("新增院系薪资出现异常");
+        }
+        return n;
+    }
 }
