@@ -1,6 +1,7 @@
 package com.sm.frame;
 
 import com.sm.entity.Admin;
+import com.sm.entity.CClass;
 import com.sm.entity.Department;
 import com.sm.factory.DAOFactory;
 import com.sm.factory.ServiceFactory;
@@ -9,12 +10,13 @@ import com.sm.ui.ImgPanel;
 import com.sm.utils.AliOSSUtil;
 
 import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 import java.util.List;
 
-public class AdminMainFrame extends JFrame{
+public class AdminMainFrame extends JFrame {
     private String uploadFileUrl;
     private File file;
     private Admin admin;
@@ -41,8 +43,15 @@ public class AdminMainFrame extends JFrame{
     private JButton 选择Logo图Buttun;
     private JLabel logoLabel;
     private JTextField textField1;
+    private JComboBox depcomboBox;
+    private JTextField textField2;
+    private JButton 新增班级Button;
+    private JPanel treePanel;
+    private JPanel classContentPanel;
 
     public AdminMainFrame(Admin admin) {
+        int width = 200;
+        int height = 200;
         //设置需要的背景图
         rootPanel.setFileName("bg.jpg");
         //组件重绘
@@ -59,37 +68,38 @@ public class AdminMainFrame extends JFrame{
         //获取
         CardLayout cardLayout = (CardLayout) centerPanel.getLayout();
 
-            院系管理Button.addActionListener(new ActionListener() {
+        院系管理Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cardLayout.show(centerPanel,"Card1");
+                cardLayout.show(centerPanel, "Card1");
             }
         });
         班级管理Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cardLayout.show(centerPanel,"Card2");
+                cardLayout.show(centerPanel, "Card2");
+                showClassPanel();
             }
         });
         学生管理Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cardLayout.show(centerPanel,"Card3");
+                cardLayout.show(centerPanel, "Card3");
             }
         });
         奖惩管理Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cardLayout.show(centerPanel,"Card4");
+                cardLayout.show(centerPanel, "Card4");
             }
         });
         新增院系Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 boolean flag = leftPanel.isVisible();
-                if (flag == false){
+                if (flag == false) {
                     leftPanel.setVisible(true);
-                }else {
+                } else {
                     leftPanel.setVisible(false);
                 }
             }
@@ -123,8 +133,8 @@ public class AdminMainFrame extends JFrame{
                     //选中文件
                     file = fileChooser.getSelectedFile();
                     //通过文件创建icon对象
-                    Icon icon = new ImageIcon(file.getAbsolutePath());
-
+                    ImageIcon icon = new ImageIcon(file.getAbsolutePath());
+                    icon.setImage(icon.getImage().getScaledInstance(width, height, Image.SCALE_AREA_AVERAGING));
                     //通过标签显示图片
                     logoLabel.setIcon(icon);
                     //设置标签可见
@@ -185,6 +195,73 @@ public class AdminMainFrame extends JFrame{
             }
         });
     }
+
+    private void showClassPanel() {
+        List<Department> departmentList = ServiceFactory.getDepartmentServiceInstance().selectAll();
+        showCombobox(departmentList);
+        showTree(departmentList);
+        showClasses(departmentList);
+    }
+
+    private void showCombobox(List<Department> departmentList) {
+        for (Department department : departmentList
+        ) {
+            depcomboBox.addItem(department);
+        }
+    }
+
+    private void showTree(List<Department> departmentList) {
+        treePanel.removeAll();
+        //左侧树形结构根节点
+        DefaultMutableTreeNode top = new DefaultMutableTreeNode("南工院");
+        for (Department department : departmentList) {
+            DefaultMutableTreeNode group = new DefaultMutableTreeNode(department.getDepartmentName());
+            top.add(group);
+            List<CClass> cClassList = ServiceFactory.getCClassServiceInstance().selectByDepartmentId(department.getId());
+            for (CClass cClass : cClassList) {
+                DefaultMutableTreeNode node = new DefaultMutableTreeNode(cClass.getClassName());
+                group.add(node);
+            }
+        }
+        final JTree tree = new JTree(top);
+        tree.setRowHeight(30);
+        tree.setFont(new Font("微软雅黑",Font.PLAIN,20));
+        treePanel.add(tree);
+        treePanel.revalidate();
+    }
+
+    private void showClasses(List<Department> departmentList) {
+        classContentPanel.removeAll();
+        //右侧流式布局显示
+        Font titlefont = new Font("微软雅黑",Font.PLAIN,22);
+        for (Department department : departmentList) {
+            ImgPanel depPanel = new ImgPanel();
+            depPanel.setFileName("bg1.jpg");
+            depPanel.repaint();
+            depPanel.setPreferredSize(new Dimension(350,500));
+            depPanel.setLayout(null);
+            JLabel depNameLabel = new JLabel(department.getDepartmentName());
+            depNameLabel.setFont(titlefont);
+            depNameLabel.setBounds(130,15,200,30);
+            //获得这个院系的所有班级
+            List<CClass> cClassList = ServiceFactory.getCClassServiceInstance().selectByDepartmentId(department.getId());
+            //数据模型
+            DefaultListModel listModel = new DefaultListModel();
+            //遍历班级集合，依次加入数据模型
+            for (CClass cClass : cClassList) {
+                listModel.addElement(cClass);
+            }
+            //使用
+            JList<CClass> jList = new JList<>(listModel);
+            //JList加入滚动面板
+            JScrollPane listScrollPanel = new JScrollPane(jList);
+            listScrollPanel.setBounds(90,120,200,260);
+            depPanel.add(depNameLabel);
+            depPanel.add(listScrollPanel);
+            classContentPanel.add(depPanel);
+        }
+    }
+
     private void showDepartments() {
         //移除原有数据
         contentPanel.removeAll();
@@ -203,7 +280,7 @@ public class AdminMainFrame extends JFrame{
             delBtn.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    int n = JOptionPane.showConfirmDialog(null,"确认删除？","警告",JOptionPane.YES_NO_OPTION);
+                    int n = JOptionPane.showConfirmDialog(null, "确认删除？", "警告", JOptionPane.YES_NO_OPTION);
                     if (n == JOptionPane.YES_OPTION) {
                         contentPanel.remove(depPanel);
                         contentPanel.repaint();
@@ -211,12 +288,11 @@ public class AdminMainFrame extends JFrame{
                     }
                 }
             });
-            delBtn.setPreferredSize(new Dimension(80,35));
+            delBtn.setPreferredSize(new Dimension(80, 35));
             //将院系名称设置给面板标题
             depPanel.setBorder(BorderFactory.createTitledBorder(department.getDepartmentName()));
             //新建一个Label用来放置院系logo，并指定大小
             JLabel logoLabel = new JLabel("<html><img src='" + department.getLogo() + "' width=200 height=180/></html>");
-//            JTextField descriptionField = new JTextField("<htm><");
             //图标标签加入院系面板
             depPanel.add(logoLabel);
             depPanel.add(delBtn);
@@ -227,7 +303,7 @@ public class AdminMainFrame extends JFrame{
         }
     }
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         String lookAndFeel = UIManager.getSystemLookAndFeelClassName();
         UIManager.setLookAndFeel(lookAndFeel);
         new AdminMainFrame(DAOFactory.getAdminDAOInstance().getAdminByAccount("admin"));
