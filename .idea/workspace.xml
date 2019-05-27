@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74dd73a9-f926-4eb3-991a-6dcadcc19996" name="Default Changelist" comment="新增院系（logo）">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/CClassDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/entity/CClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/CClassServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java" afterDir="false" />
+    <list default="true" id="74dd73a9-f926-4eb3-991a-6dcadcc19996" name="Default Changelist" comment="查询班级信息">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/entity/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bg01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/rentou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/StudentDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sm/service/impl/StudentServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/CClassDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/CClassDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/factory/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/factory/DAOFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminFrame.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminFrame.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sm/entity/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/entity/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/CClassServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/CClassServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/factory/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/factory/DAOFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/factory/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/factory/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminFrame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$3.class" afterDir="false" />
@@ -30,6 +36,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/frame/AdminMainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sm/service/impl/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sm/service/impl/DepartmentServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,16 +51,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1348">
-              <caret line="296" column="36" selection-start-line="296" selection-start-column="36" selection-end-line="296" selection-end-column="36" />
+            <state relative-caret-position="124">
+              <caret line="314" selection-start-line="314" selection-end-line="314" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3381#3382#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3855#3856#0" expanded="true" />
+                <element signature="e#3923#3924#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
+                <element signature="e#4143#4144#0" expanded="true" />
+                <element signature="e#4690#4691#0" expanded="true" />
+                <element signature="e#4739#4740#0" expanded="true" />
+                <element signature="e#13419#13604#0" />
+                <element signature="e#13610#14493#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -89,26 +135,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminLoginFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/utils/OSSClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/utils/JDBCUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/DepartmentDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/DepartmentDAOImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sm/service/impl/DepartmentServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/utils/AliOSSUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/entity/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/entity/CClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/entity/StudentVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/factory/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/CClassDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/StudentDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sm/service/impl/CClassServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/dao/impl/StudentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sm/service/impl/StudentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sm/dao/impl/StudentDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sm/service/impl/StudentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -138,9 +192,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,6 +290,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sm" type="462c0819:PsiDirectoryNode" />
               <item name="frame" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminLoginFrame" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="student-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="student-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sm" type="462c0819:PsiDirectoryNode" />
+              <item name="frame" type="462c0819:PsiDirectoryNode" />
               <item name="AdminMainFrame" type="e9f4de52:FormNode" />
             </path>
             <path>
@@ -257,6 +320,24 @@
               <item name="sm" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="student-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="student-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sm" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="student-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="student-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sm" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student-manage" type="b2602c69:ProjectViewProjectNode" />
@@ -316,6 +397,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,15 +424,15 @@
       <recent name="com.sm.service.impl" />
       <recent name="com.sm.dao.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\student-manage\src\main\resources\img" />
-      <recent name="D:\student-manage\src\main\java\com\sm\frame" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sm.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sm.utils" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\student-manage\src\main\resources\img" />
+      <recent name="D:\student-manage\src\main\java\com\sm\frame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,20 +474,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AliOSSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sm.utils.AliOSSUtil" />
-      <module name="student-manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sm.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CClassDAOImplTest.selectByDepartmentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDAOImplTest.selectByClassId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-manage" />
       <extension name="coverage">
         <pattern>
@@ -414,14 +483,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sm.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sm.dao.impl.CClassDAOImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.dao.impl.StudentDAOImplTest" />
+      <option name="METHOD_NAME" value="selectByClassId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOImplTest.selectByDepartmentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sm.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.dao.impl.StudentDAOImplTest" />
       <option name="METHOD_NAME" value="selectByDepartmentId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CClassServiceImplTest.selectByDepartmentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentServiceImplTest.selectByKeywords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-manage" />
       <extension name="coverage">
         <pattern>
@@ -430,8 +515,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sm.service.impl.CClassServiceImplTest" />
-      <option name="METHOD_NAME" value="selectByDepartmentId" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.service.impl.StudentServiceImplTest" />
+      <option name="METHOD_NAME" value="selectByKeywords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -440,10 +525,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AdminLoginFrame" />
-        <item itemvalue="JUnit.CClassServiceImplTest.selectByDepartmentId" />
-        <item itemvalue="JUnit.CClassDAOImplTest.selectByDepartmentId" />
         <item itemvalue="Application.AdminMainFrame" />
-        <item itemvalue="Application.AliOSSUtil" />
+        <item itemvalue="JUnit.StudentDAOImplTest.selectByDepartmentId" />
+        <item itemvalue="JUnit.StudentDAOImplTest.selectByClassId" />
+        <item itemvalue="JUnit.StudentServiceImplTest.selectByKeywords" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +559,12 @@
       <workItem from="1558532509655" duration="356000" />
       <workItem from="1558562965783" duration="16000" />
       <workItem from="1558563760247" duration="5000" />
-      <workItem from="1558577448002" duration="10082000" />
+      <workItem from="1558577448002" duration="10160000" />
+      <workItem from="1558616778581" duration="6267000" />
+      <workItem from="1558649836954" duration="16000" />
+      <workItem from="1558659320657" duration="4701000" />
+      <workItem from="1558747593769" duration="9123000" />
+      <workItem from="1558833849613" duration="14542000" />
     </task>
     <task id="LOCAL-00001" summary="新增院系（logo）">
       <created>1558531306996</created>
@@ -483,49 +573,55 @@
       <option name="project" value="LOCAL" />
       <updated>1558531306997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="查询班级信息">
+      <created>1558604704341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558604704341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentDAOImplTest_deleDepartmentById - 2019.05.21 at 13h 23m 33s.xml">
-      <configuration name="DepartmentDAOImplTest.deleDepartmentById" configurationId="JUnit" />
+    <history-entry file="StudentServiceImplTest_selectByClassId - 2019.05.26 at 11h 11m 13s.xml">
+      <configuration name="StudentServiceImplTest.selectByClassId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentServiceImplTest_setDepartmentService - 2019.05.21 at 13h 38m 39s.xml">
-      <configuration name="DepartmentServiceImplTest.setDepartmentService" configurationId="JUnit" />
+    <history-entry file="StudentServiceImplTest_selectByKeywords - 2019.05.26 at 11h 12m 17s.xml">
+      <configuration name="StudentServiceImplTest.selectByKeywords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDAOImplTest_insertDepartment - 2019.05.22 at 14h 25m 41s.xml">
-      <configuration name="DepartmentDAOImplTest.insertDepartment" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 00m 27s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentServiceImplTest_addDepartment - 2019.05.22 at 14h 34m 21s.xml">
-      <configuration name="DepartmentServiceImplTest.addDepartment" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 02m 37s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassDAOImplTest_selectByDepartmentId - 2019.05.23 at 11h 41m 23s.xml">
-      <configuration name="CClassDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 04m 05s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassDAOImplTest_selectByDepartmentId - 2019.05.23 at 11h 51m 56s.xml">
-      <configuration name="CClassDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 04m 29s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassDAOImplTest_selectByDepartmentId - 2019.05.23 at 11h 53m 54s.xml">
-      <configuration name="CClassDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 04m 33s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassServiceImplTest_selectByDepartmentId - 2019.05.23 at 12h 03m 28s.xml">
-      <configuration name="CClassServiceImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByClassId - 2019.05.26 at 13h 04m 44s.xml">
+      <configuration name="StudentDAOImplTest.selectByClassId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassServiceImplTest_selectByDepartmentId - 2019.05.23 at 12h 04m 18s.xml">
-      <configuration name="CClassServiceImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 05m 03s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CClassServiceImplTest_selectByDepartmentId - 2019.05.23 at 12h 12m 12s.xml">
-      <configuration name="CClassServiceImplTest.selectByDepartmentId" configurationId="JUnit" />
+    <history-entry file="StudentDAOImplTest_selectByDepartmentId - 2019.05.26 at 13h 05m 32s.xml">
+      <configuration name="StudentDAOImplTest.selectByDepartmentId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46968000" />
+    <option name="totallyTimeSpent" value="81695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22922252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,9 +629,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32918397" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19529086" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41551247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -544,7 +640,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32825485" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32753623" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32686982" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,50 +657,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增院系（logo）" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增院系（logo）" />
+    <MESSAGE value="查询班级信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询班级信息" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/utils/ResultEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/AdminServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminFrame.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/AdminDAOImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -622,17 +678,6 @@
           <folding>
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/ui/ImgPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -655,26 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminFrame.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/utils/AliOSSUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -717,23 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/AdminDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -764,105 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/impl/DepartmentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/CClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/factory/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/DepartmentDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/DepartmentServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/img/b1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -890,40 +800,140 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/img/p4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/impl/DepartmentDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="529">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="226">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/factory/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/factory/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/bg5.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/ui/ImgPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/impl/CClassDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        <state relative-caret-position="603">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/CClassDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/CClassDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/DepartmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -932,8 +942,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/CClassServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/DepartmentDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/StudentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/DepartmentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/CClassService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/CClassServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/service/impl/StudentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/CClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/entity/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sm/dao/impl/StudentDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/dao/impl/StudentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -942,8 +1139,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/frame/AdminMainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="296" column="36" selection-start-line="296" selection-start-column="36" selection-end-line="296" selection-end-column="36" />
+        <state relative-caret-position="124">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3855#3856#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+            <element signature="e#4143#4144#0" expanded="true" />
+            <element signature="e#4690#4691#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#13419#13604#0" />
+            <element signature="e#13610#14493#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sm/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

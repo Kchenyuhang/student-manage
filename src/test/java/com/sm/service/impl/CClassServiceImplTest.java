@@ -17,4 +17,24 @@ public class CClassServiceImplTest {
         List<CClass> cClassList = cClassService.selectByDepartmentId(2);
         cClassList.forEach(cClass -> System.out.println(cClass.getClassName()));
     }
+
+    @Test
+    public void insertClass() {
+        CClass cClass = new CClass();
+        cClass.setDepartmentId(2);
+        cClass.setClassName("测试1721");
+        int n = cClassService.insertClass(cClass);
+    }
+
+    @Test
+    public void setcClassService() {
+        int id = 13;
+        cClassService.deleteClassById(id);
+    }
+
+    @Test
+    public void selectAll() {
+        List<CClass> cClassList = cClassService.selectAll();
+        cClassList.forEach(CClass -> System.out.println(CClass));
+    }
 }

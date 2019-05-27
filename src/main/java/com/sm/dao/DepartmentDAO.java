@@ -19,7 +19,7 @@ public interface DepartmentDAO {
     /**
      * 根据id删除院系
      * @param id
-     * @return
+     * @return int
      * @throws SQLException
      */
     int deleDepartmentById(long id) throws SQLException;

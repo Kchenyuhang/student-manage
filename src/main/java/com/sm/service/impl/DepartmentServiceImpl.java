@@ -27,7 +27,7 @@ public class DepartmentServiceImpl implements DepartmentService {
         try {
             departmentDAO.deleDepartmentById(id);
         } catch (SQLException e) {
-            System.out.println("删除院系有异常");
+            System.err.println("删除院系有异常");
         }
     }
 

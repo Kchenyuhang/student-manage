@@ -22,4 +22,35 @@ public class CClassServiceImpl implements CClassService {
         }
         return  cClassList;
     }
+
+    @Override
+    public int insertClass(CClass cClass) {
+        int n = 0;
+        try {
+            n = cClassDAO.insertClass(cClass);
+        } catch (SQLException e) {
+            System.err.println("新增班级出现异常");
+        }
+        return n;
+    }
+
+    @Override
+    public void deleteClassById(int id) {
+        try {
+            cClassDAO.deleteClassById(id);
+        } catch (SQLException e) {
+            System.err.println("删除班级有异常");
+        }
+    }
+
+    @Override
+    public List<CClass> selectAll() {
+        List<CClass> cClassList = null;
+        try {
+            cClassList = cClassDAO.selectAll();
+        } catch (SQLException e) {
+            System.err.println("查询出现异常");
+        }
+        return cClassList;
+    }
 }

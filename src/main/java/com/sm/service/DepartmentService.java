@@ -7,7 +7,7 @@ import java.util.List;
 public interface DepartmentService {
     /**
      * 查询所有院系
-     * @return
+     * @return Department
      */
     List<Department> selectAll();
 
